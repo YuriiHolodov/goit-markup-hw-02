@@ -235,10 +235,10 @@ color: #2E2F42;
 
 .team {
 position: none;
-width: none ;
-height: none;
-left: none;
-top: none;
+width: 1440px;
+height: 732px;
+left: 0px;
+top: 1548px;
 
 /* CLOUD */
 
