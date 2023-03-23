@@ -14,97 +14,129 @@ body {
     background-color: var(--white-bgc-header-teamcard-color);
 }
 
-ul.list {
+.list {
     list-style: none;
 }
 
-a.link {
+.link {
     text-decoration: none;
 }
 
-header.header {
-    border-bottom: 1px solid var(--cornflower-accent-color);
+.header {
+    border-bottom: 1px solid;
+    border-color: var(--cornflower-accent-color);
 }
 
-nav.header-navigation {
+.header-navigation {
 }
 
-h1.header-logo,
-h1.header-logo-studio {
+.header-logo,
+.header-logo-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin: 0;
 }
 
-h1.header-logo a {
+.header-logo {
     color: var(--iris-primary-brand-links-color);
 }
 
-h1.header-logo-studio a {
+.header-logo-studio {
     color: var(--navy-blue-dark-shadows-headings-color);
 }
 
-ul.header-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.header-list {
 }
 
-li.header-item {
-    margin: 0 10px;
+.header-item {
 }
 
-a.header-link,
-a.header-address-link {
+.header-link,
+.header-address-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-dark-shadows-headings-color);
-    transition: color 0.2s ease-in-out;
 }
 
-a.header-link:hover,
-a.header-link:focus,
-a.header-address-link:hover,
-a.header-address-link:focus {
+.header-link {
+    color: var(--navy-blue-dark-shadows-headings-color);
+}
+
+.header-link:hover,
+.header-link:focus {
     color: var(--ocean-bgc-hover-focus-active-color);
 }
 
-address.header-address {
+.header-address {
     font-style: normal;
 }
 
-ul.header-address-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.header-address-list {
 }
 
-li.header-address-item {
-    margin: 0 10px;
+.header-address-item {
 }
 
-h2.hidden-title {
-    position: absolute;
-    left: -9999px;
-    top: -9999px;
+.header-address-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-dominant-text-color);
 }
 
-ul.feature-list {
-    list-style: none;
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--ocean-bgc-hover-focus-active-color);
 }
 
-li.feature-item {
+.hero {
+    background-color: var(--navy-blue-dark-shadows-headings-color);
 }
 
-h3.feature-title {
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-bgc-header-teamcard-color);
+    text-align: center;
+}
+
+.hero-button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-bgc-header-teamcard-color);
+    background-color: var(--iris-primary-brand-links-color);
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: var(--ocean-bgc-hover-focus-active-color);
+}
+
+.feature {
+}
+
+.hidden-title {
+}
+
+.feature-list {
+}
+
+.feature-item {
+}
+
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -112,7 +144,7 @@ h3.feature-title {
     color: var(--navy-blue-dark-shadows-headings-color);
 }
 
-p.feature-desc {
+.feature-desc {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -120,24 +152,104 @@ p.feature-desc {
     color: #404bbf;
 }
 
-h2.about-title {
+.about-title {
+    position: none;
+    width: none;
+    height: none;
+    left: none;
+    top: none;
+
+    /* Header 2 */
+
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    /* identical to box height, or 111% */
+
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue-dark-shadows-headings-color);
+
+    /* NAVY BLUE */
+
+    color: #2e2f42;
 }
 
-footer.footer {
+.footer-logo link {
+width: none;
+height: none;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-dark-shadows-headings-color);
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.list {
+    list-style: none;
+}
+
+main {
+    display: block;
+}
+
+.footer {
     background-color: var(--navy-blue-dark-shadows-headings-color);
 }
+footer {
+    display: block;
+}
 
-h1.footer-logo-studio,
-h1.footer-logo {
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-primary-brand-links-color);
+}
+
+.footer-logo-studio {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -145,31 +257,18 @@ h1.footer-logo {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--cloud-light-bgc-footertext-color);
-    margin: 0;
 }
 
-p.footer-text {
+.footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud-light-bgc-footertext-color);
 }
-
-h2.team-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--navy-blue-dark-shadows-headings-color);
-}
-
-section.team {
-    width: 1440px;
-    height: 732px;
-    margin: 0 auto;
-    background: #F4F4FD;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
