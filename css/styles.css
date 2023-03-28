@@ -159,8 +159,8 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue-dark-shadows-headings-color);
-    text-align: center;
+    color: var(--navy-blue-dark-shadows-headings-color)
+
 }
 
 .footer-logo link {
