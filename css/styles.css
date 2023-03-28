@@ -12,6 +12,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--slate-dominant-text-color);
     background-color: var(--white-bgc-header-teamcard-color);
+
 }
 
 .list {
@@ -150,7 +151,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-dominant-text-color)
 }
 
 .about-title {
@@ -158,14 +159,10 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
-    /* NAVY BLUE */
-
-    color: #2e2f42;
+    line-height: 1.11;
 }
 
 .footer-logo link {
