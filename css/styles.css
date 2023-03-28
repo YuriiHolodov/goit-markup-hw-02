@@ -109,8 +109,7 @@ body {
 }
 
 .hero-button {
-    font-family: "Roboto";
-    font-style: normal;
+    font-family: "Roboto" sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -145,7 +144,6 @@ body {
 }
 
 .feature-desc {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -153,20 +151,10 @@ body {
 }
 
 .about-title {
-    position: none;
-    width: none;
-    height: none;
-    left: none;
-    top: none;
-
-    /* Header 2 */
-
-    font-family: "Roboto";
-    font-style: normal;
+    font-family: "Roboto" sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    /* identical to box height, or 111% */
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -215,13 +203,7 @@ flex-grow: 0;
 }
 
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+    
 }
 
 .list {
