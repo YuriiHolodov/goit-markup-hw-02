@@ -123,6 +123,10 @@ body {
     background-color: var(--ocean-bgc-hover-focus-active-color);
 }
 
+.hero-button:focus{
+    background-color: var(--ocean-bgc-hover-focus-active-color);
+}
+
 .feature {
 }
 
@@ -254,4 +258,20 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-dominant-text-color);
+}
+
+.portfolio-link {}
+.portfolio-item-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue-dark-shadows-headings-color);
 }
