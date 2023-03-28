@@ -38,7 +38,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 
 .header-logo {
@@ -123,6 +122,9 @@ body {
 .hero-button:hover {
     background-color: var(--ocean-bgc-hover-focus-active-color);
 }
+.hero-button:focus {
+    background-color: #404BBF
+}
 
 .feature {
 }
@@ -167,31 +169,30 @@ body {
 }
 
 .footer-logo link {
-width: none;
-height: none;
+    width: none;
+    height: none;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height, or 117% */
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-/* IRIS */
+    /* IRIS */
 
-color: #4D5AE5;
+    color: #4d5ae5;
 
+    /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .team-title {
@@ -204,7 +205,6 @@ flex-grow: 0;
 }
 
 h2 {
-    
 }
 
 .list {
@@ -224,7 +224,7 @@ footer {
 }
 
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -234,7 +234,7 @@ footer {
 }
 
 .footer-logo-studio {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
