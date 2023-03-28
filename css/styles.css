@@ -155,14 +155,12 @@ body {
 }
 
 .about-title {
-    font-family: "Roboto" sans-serif;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    text-align: center;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    line-height: 1.11;
+    color: var(--navy-blue-dark-shadows-headings-color);
+    text-align: center;
 }
 
 .footer-logo link {
