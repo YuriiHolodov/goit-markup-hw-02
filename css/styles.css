@@ -174,19 +174,14 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
-/* identical to box height, or 117% */
 
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
-/* IRIS */
-
 color: #4D5AE5;
 
-
-/* Inside auto layout */
 
 flex: none;
 order: 0;
@@ -215,6 +210,7 @@ main {
 }
 
 .footer {
+    background-color: #2e2f42;
     background-color: var(--navy-blue-dark-shadows-headings-color);
 }
 footer {
@@ -253,4 +249,15 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.portfolio-button {
+    background-color: #404bbf;
+    font-family: "Roboto", sans-serif
+    
+
+}
+
+.portfolio-button:focus {
+    background-color: #404bbf;
 }
